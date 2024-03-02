@@ -165,8 +165,9 @@ let page6 = () => {
     scrollTrigger: {
       trigger: "#page6",
       start: "0% 0%",
-      end: "220% 20%",
+      end: "250% 20%",
       scrub: true,
+      duration: 0.4,
       pin: true,
     },
   });
@@ -176,8 +177,8 @@ let page6 = () => {
     duration: 3,
   });
   tl.to(".img-elem", {
-    y: "-2010px",
-    duration: 3,
+    y: "-2426px",
+    duration: 10,
   });
 };
 page6();
